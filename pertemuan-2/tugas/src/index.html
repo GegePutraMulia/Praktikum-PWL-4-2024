@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Tailwind CSS</title>
+    <link rel="stylesheet" href="./output.css"> 
+</head>
+<body class=" bg-gray-100">
+   <section id="title" class=" bg-blue-600 px-2 py-1 mr-2 rounded-md shadow-lg my-4 max-w-md">
+      <h1 class="font-semibold text-white text-3xl flex justify-center">To Do List</h1>
+   </section>
+
+   <section id="input" class="my-4  max-w-md">
+      <div class="flex space-x-2">
+         <input type="text" name="assignment" id="assignment" 
+                class="border border-gray-400 px-4 py-2 rounded-md w-full focus:ring focus:ring-indigo-300"
+                placeholder="Nama Matakuliah">
+         <input type="button" id="btn-tambah" value="TAMBAH"
+                class="bg-indigo-500 text-white px-7 py-2  rounded-md shadow hover:bg-indigo-600 cursor-pointer">
+      </div>
+   </section>
+
+   <section id="output" class="">
+      <!-- Hasil akan ditampilkan di sini -->
+   </section>
+
+   <script src="main.js"></script>
+</body>
+</html>
